@@ -7,6 +7,7 @@ package fr.lernejo.guessgame;
 public class Lancher {
     public static void main(String[] args) {
 
+        
         Logger l =new ConsoleLogger();
 
         if(args.length==1 && args[0].equals("-interactive"))

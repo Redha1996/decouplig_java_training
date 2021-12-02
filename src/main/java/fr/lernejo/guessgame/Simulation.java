@@ -51,6 +51,7 @@ public class Simulation {
             test=nextRound();
             i++;
         }
+
         End=System.currentTimeMillis();
         long TimeTotal = End-Start;
         Timestamp timestamp=new Timestamp(TimeTotal);
