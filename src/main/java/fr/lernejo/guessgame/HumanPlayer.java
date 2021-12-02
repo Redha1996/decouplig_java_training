@@ -5,7 +5,6 @@ import fr.lernejo.logger.LoggerFactory;
 import java.util.Scanner;
 
 public class HumanPlayer implements Player{
-
     Logger logger =  LoggerFactory.getLogger("player");
 
     @Override

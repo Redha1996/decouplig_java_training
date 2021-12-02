@@ -1,13 +1,13 @@
 package fr.lernejo.guessgame;
 
-    import fr.lernejo.logger.Logger;
-    import fr.lernejo.logger.LoggerFactory;
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
 
-    import java.sql.Timestamp;
-    import java.text.SimpleDateFormat;
-    import java.time.DateTimeException;
-    import java.time.Duration;
-    import java.time.format.DateTimeFormatter;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.DateTimeException;
+import java.time.Duration;
+import java.time.format.DateTimeFormatter;
 
 public class Simulation {
 
@@ -51,7 +51,6 @@ public class Simulation {
             test=nextRound();
             i++;
         }
-
         End=System.currentTimeMillis();
         long TimeTotal = End-Start;
         Timestamp timestamp=new Timestamp(TimeTotal);
